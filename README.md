@@ -3,7 +3,7 @@ A collection of SQL practice questions and solutions to help improve SQL skills.
 
 # SQL Practice Questions
 
-This repository contains a curated list of SQL practice problems designed to help you improve your SQL querying skills. Each question includes a description and a sample solution (in standard SQL or platform-specific syntax such as SQL Server, MySQL, PostgreSQL, etc.).
+This repository contains a curated list of SQL practice problems from multiple platform,asked in different company and to help you improve your SQL querying skills. Each question includes a description and a sample solution (in standard SQL or platform-specific syntax such as SQL Server).
 
 ## 📌 Topics Covered
 
@@ -15,10 +15,3 @@ This repository contains a curated list of SQL practice problems designed to hel
 - Subqueries and CTEs
 - Window functions (ROW_NUMBER, RANK, DENSE_RANK, etc.)
 - Advanced queries (e.g., second highest salary, running totals, etc.)
-
-## 🧩 Example Questions
-
-- Find the second highest salary from the Employee table.
-- Get the list of customers who never placed an order.
-- Rank employees within departments by their salaries.
-- Identify duplicate records in a table.
