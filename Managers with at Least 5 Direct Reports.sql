@@ -30,9 +30,9 @@ Write a solution to find managers with at least five direct reports.
 
 Answer -
 
-select m.name
+select e.name
 from Employee e
 inner join Employee m
-on e.managerId = m.id
-group by m.name,m.id
-having count(m.id)>= 5
+on e.id = m.managerId
+group by e.name,e.id
+having count(m.managerId) >= 5
